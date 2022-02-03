@@ -39,9 +39,9 @@ TextLabel_2.TextSize = 14.000
 
 buttin.Name = "buttin"
 buttin.Parent = main
-buttin.BackgroundColor3 = Color3.fromRGB(138, 138, 153)
+buttin.BackgroundColor3 = Color3.fromRGB(96, 125, 139)
 buttin.BackgroundTransparency = 1.000
-buttin.BorderColor3 = Color3.fromRGB(177, 176, 191)
+buttin.BorderColor3 = Color3.fromRGB(96, 125, 139)
 buttin.BorderSizePixel = 0
 buttin.Position = UDim2.new(-0.00419670343, 0, -0.000208675861, 0)
 buttin.Size = UDim2.new(0, 155, 0, 33)
@@ -89,7 +89,7 @@ buttin.MouseButton1Down:connect(function()
 								billboardgui.AlwaysOnTop = true;
 								local frame = Instance.new("Frame", billboardgui);
 								frame.BorderSizePixel = 0;
-								frame.BackgroundColor3 = Color3.new(100/255,0/255,0/100);
+								frame.BackgroundColor3 = Color3.new(100/100,30/255,0/100);
 								frame.BackgroundTransparency = .5;
 								if v.Name == "Head" then
 									frame.Size = UDim2.new(1,0,1,0);
