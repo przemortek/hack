@@ -10,7 +10,7 @@ ScreenGui.Parent = game.CoreGui
 
 main.Name = "main"
 main.Parent = ScreenGui
-main.BackgroundColor3 = Color3.fromRGB(199, 199, 214)
+main.BackgroundColor3 = Color3.fromRGB(46, 125, 50)
 main.BorderColor3 = Color3.fromRGB(199, 199, 214)
 main.Position = UDim2.new(0.781376541, 0, 0.874791324, 0)
 main.Size = UDim2.new(0, 164, 0, 32)
@@ -18,7 +18,7 @@ main.Active = true
 main.Draggable = true
 
 TextLabel.Parent = main
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundColor3 = Color3.fromRGB(46, 125, 50)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(-0.00456893444, 0, 0.298848748, 0)
 TextLabel.Size = UDim2.new(0, 164, 0, 22)
