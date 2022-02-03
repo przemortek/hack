@@ -89,7 +89,7 @@ buttin.MouseButton1Down:connect(function()
 								billboardgui.AlwaysOnTop = true;
 								local frame = Instance.new("Frame", billboardgui);
 								frame.BorderSizePixel = 0;
-								frame.BackgroundColor3 = Color3.new(255/255,0/255,0/255);
+								frame.BackgroundColor3 = Color3.new(92,11,255);
 								frame.BackgroundTransparency = .5;
 								if v.Name == "Head" then
 									frame.Size = UDim2.new(1,0,1,0);
